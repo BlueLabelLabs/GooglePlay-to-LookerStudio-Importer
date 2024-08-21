@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "google_play_install_downloader"
+version = "0.1.0"
+description = "A simple project to automatically download Google Play install metrics and publish to a Google Sheet."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sshtunnel = "^0.4.0"
+psycopg2-binary = "^2.9.3"
+paramiko = "^3.4.0"
+gspread = "^6.1.2"
+google-auth = "^2.32.0"
+google-cloud = "^0.34.0"
+google-cloud-storage = "^2.18.0"
+pandas = "^2.2.2"
+google-cloud-pubsub = "^2.23.0"
+google-api-python-client = "^2.139.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

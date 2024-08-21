@@ -1,0 +1,4 @@
+# cron
+
+# Run the Instagram scraper every 30 minutes
+*/15 * * * * /bin/bash /app/run.sh >> /var/log/cron.log 2>&1
