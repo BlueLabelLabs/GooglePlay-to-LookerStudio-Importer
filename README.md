@@ -2,6 +2,8 @@
 
 This project provides a Python-based solution to download Google Play store installation data from a Google Cloud Storage bucket, process it, and upload the results to a Google Sheet, making it accessible for further analysis in Looker Studio. The code as it exists right now just imports Install metrics into a Google Sheet, however this example can be easily expanded to handle other metrics published in Google Play nightly CSV files such as revenue, subscription, churn and crash metrics.
 
+For a full description on how this code works and what it can be used for, please see this [blog post](https://www.bluelabellabs.com/blog/how-to-visualize-your-apps-google-play-store-metrics-in-looker-studio/).
+
 ## Key Features
 - **Google Cloud Integration**: Downloads installation data stored in Google Cloud Storage.
 - **Google Sheets Integration**: Processes the downloaded data and updates a Google Sheet with the latest information.
